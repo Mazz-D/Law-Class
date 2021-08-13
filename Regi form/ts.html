@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./ts.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>REG form using bootstrap</title>
+</head>
+<body>
+    <form class="row">
+        <div class="col-md-4">
+          <label for="first-name" class="form-label">First name:</label>
+          <input type="text" class="form-control" id="first-name" placeholder="Enter your first-name" required>
+        </div>
+
+        <div class="col-md-4">
+          <label for="last-name" class="form-label">Last name:</label>
+          <input type="text" class="form-control" id="last-name" placeholder="Enter your last-name" required>
+        </div>
+
+        <div class="col-md-4">
+          <label for="Email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter a valid email" required>
+        </div>
+
+        <div class="col-md-3">
+            <label for="password" class="form-label">Password:</label>
+            <input type="text" class="form-control" placeholder="Password" required>
+            </div>
+
+        <div class="col-md-3">
+          <label for="password" class="form-label">Confirm Password:</label>
+          <input type="password" class="form-control" placeholder="Confirm Password" required>
+        </div>
+
+        <div class="col-md-6 gender">
+          <label for="gender" class="form-label">Gender:</label>
+          <select name="role" id="role" class="dropdown">
+          <option disabled value >Select an Option </option>
+          <option value="female"> Female</option>
+          <option value="male"> Male</option>
+          <option value="prefer-not-to-say"> Prefer Not to Say</option>
+          <option value="other"> Other</option>
+          </select>
+        </div>
+
+        <div class="col-6">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" required>
+            <label class="form-check-label" for="terms">
+              Agree to terms and conditions
+            </label>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+</body>
+</html>

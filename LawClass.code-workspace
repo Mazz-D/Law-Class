@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "Calc(html and Css)"
+    },
+    {
+      "path": "Regi form"
+    },
+    {
+      "path": "W3-School"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "W3-School"
+  }
+}
