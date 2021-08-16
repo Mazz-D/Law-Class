@@ -49,7 +49,6 @@ item span{
 }
 .get-in:hover {
     background-color: rgb(192, 238, 222);
-    border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
     .col-sm-4 {
