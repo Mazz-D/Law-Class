@@ -107,6 +107,11 @@ item span{
     background-color: #f4511e;
     color: #fff;
 }
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
 @media screen and (max-width: 768px) {
     .col-sm-4 {
         text-align: center;
