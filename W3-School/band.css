@@ -1,3 +1,14 @@
+body {
+    font: 400 15px/1.8 Lato, san-serif;
+    color: #777;
+}
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #111;
+}
+
 .container {
     padding: 80px 120px;
 }
@@ -74,6 +85,7 @@
     filter: grayscale(100%);
 }
 .navbar {
+    font-family: Montserrat, sans-sa-erif;
     margin-bottom: 0;
     background-color: #2d2d30;
     border: 0;
@@ -100,6 +112,12 @@
 }
 .dropdown-menu li a:hover {
     background-color: red !important;
+}
+.form-control {
+    border-radius: 0;
+}
+textarea {
+    resize: none;
 }
 footer {
     background-color: #2d2d30;
