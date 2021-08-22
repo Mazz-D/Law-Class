@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/php-form.css">
+    <title>PHP FORMS</title>
+</head>
+<body>
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+        <div>
+            <h1><strong>PHP Form Validation Example</strong></h1>
+            <div>
+            Name: <input type="text" name="name" placeholder="Name" required>
+            </div><br>
+            <div>
+                Email: <input type="text" name="email" placeholder="Email" required>
+            </div><br>
+            <div>
+                Website: <input type="text" name="website">
+            </div><br>
+            <div>
+            Comment: <textarea name="" id="" cols="30" rows="5"></textarea><br>
+            </div><br>
+            <div>Gender:
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="other">Other<br>
+            <input type="submit" name="submit" value="submit">
+            </div>
+            <h1><strong>Your Input:</strong></h1>
+    
+        </div>
+    </form>
+</body>
+</html>
